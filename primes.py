@@ -21,7 +21,7 @@ def is_prime(number):
 
     """Here refactor for loop"""
     return False if len([False for element in range(2, number) if number % element == 0]) > 0  else True
-    # En una sola linea de codigo
+    
     # return ( number % element == 0 for element in range(2, number) )
         # return False if number % element == 0 else True
             # return False
